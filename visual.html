@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">  
+  <title>EncripAlura</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <style>
+        
+        body {
+            background: #E5E5E5;
+            display:flex;
+            flex-direction: space-around;
+        }
+         
+    </style>
+    <main class="main">
+        <div class="menu" style="display: flex; flex-direction: space-around;">                        
+            <section class="form box" style="padding: 168px 100px 20px">
+                <form action="">  
+                    <label for="input-texto"></label>              
+                    <input class="text-input" type="text" name="input-texto" id="input-texto" placeholder="Ingrese el texto aqui" style="background-color: #E5E5E5; border: 0 ; width: 577px; height: 300px">
+                    <br><br><br><br><br><br>
+                    <input class="btn" type="button" value="Encriptar" id="btn-encrip" style= "BORDER:#0A3871 1px solid; FONT-SIZE: #FFFFFF; BACKGROUND-COLOR: #0A3871; FONT-FAMILY: Arial">
+                    <input class="btn" type="button" value="Desencriptar" id="btn-descrip" style="BORDER:#0A3871 1px solid; FONT-SIZE: #0A3871; BACKGROUND-COLOR: #D8DFE8; FONT-FAMILY: Arial">
+                </form>
+            </section> 
+            <section class="msg box" style="padding: 40px 35px 20px">
+                <input class="text-salida" type="text" id="msg" placeholder="Encriptado" style="background-color: #FFFFFF; border: 0 ;  width: 400px; height: 577px; border-radius: 32px">
+                <br><br><br><br><br><br>
+                <input class="btn" type="button" value="copiar" id="btn-copy">
+            </section>           
+        </div> 
+        
+    </main>
+    
+  
+
+  <script src="encrip.js"></script>
+  
+</body>
+</html>
